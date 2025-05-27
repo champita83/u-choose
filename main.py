@@ -1,4 +1,4 @@
-
+from flask_cors import CORS
 from flask import Flask, request, jsonify
 from db import init_db, save_message, create_chat, get_saved_chats, get_chat_history, delete_chat
 from prompts import get_gpt_response
