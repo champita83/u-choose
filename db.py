@@ -1,0 +1,1 @@
+# Full working db.py with user, chat, journaling logic
